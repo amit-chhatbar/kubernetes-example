@@ -6,7 +6,7 @@ metadata:
   name: rolling-deployment
   namespace: default
 spec:
-  replicas: 2
+  replicas: 50
   selector:
     matchLabels:
       app: rolling-app
